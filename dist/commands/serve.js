@@ -42,9 +42,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.serveCommand = void 0;
 var path_1 = __importDefault(require("path"));
 var commander_1 = require("commander");
-var local_api_1 = require("local-api");
-var isProduction = process.env.NODE_ENV === 'production';
-console.log(isProduction);
+var local_api_1 = require("@code.it/local-api");
+var isProduction = 'production' === 'production';
 exports.serveCommand = new commander_1.Command()
     .command('serve [filename]')
     .description('Open a file for editing')

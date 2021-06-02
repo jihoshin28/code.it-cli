@@ -1,9 +1,8 @@
 import path from 'path';
 import { Command } from 'commander';
-import { serve } from 'local-api';
+import { serve } from '@code.it/local-api';
 
-let isProduction = process.env.NODE_ENV === 'production';
-console.log(isProduction)
+let isProduction = 'production' === 'production';
 
 export const serveCommand = new Command()
   .command('serve [filename]')

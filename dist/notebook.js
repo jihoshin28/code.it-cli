@@ -1,1 +1,1 @@
-[{"content":"console.log('hello')","type":"code","id":"0.sqr7qf9a37h"},{"content":"","type":"text","id":"0.x2k56cnsmmm"}]
+[{"content":"import React from 'react'\n\nconst App = () => {\n  <div>\n    <h1>\n      <button></button>\n    </h1>\n  </div>\n}\n\nshow(<h1>Hello</h1>)","type":"code","id":"0.sqr7qf9a37h"},{"content":"","type":"text","id":"0.x2k56cnsmmm"}]
